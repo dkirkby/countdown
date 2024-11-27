@@ -1,6 +1,6 @@
 # countdown
 
-A simple countdown timer webapp created as a test of LLM-assisted programming.
+A simple countdown timer webapp created as a test of LLM-assisted programming. Try it [here](dkirkby.github.io/countdown).
 
 The initial version was created using ChatGPT o1-mini with the following prompt:
 
