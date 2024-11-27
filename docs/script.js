@@ -18,12 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Get the 'times' parameter
     const params = getQueryParams();
-    let times = [30, 60, 90]; // Default times
+    let times = [30, 60, 90, 120]; // Default times
 
     if (params.times) {
         times = params.times.split(',').map(time => parseInt(time)).filter(time => !isNaN(time) && time > 0);
         if (times.length === 0) {
-            times = [30, 60, 90];
+            times = [30, 60, 90, 120];
         }
     }
 
