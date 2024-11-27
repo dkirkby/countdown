@@ -79,6 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Optional: Handle page visibility change to pause timers when not visible
+    /*
     document.addEventListener('visibilitychange', () => {
         if (document.hidden) {
             // Pause all running timers
@@ -89,4 +90,5 @@ document.addEventListener('DOMContentLoaded', () => {
             // Optionally, restart timers or handle as needed
         }
     });
+    */
 });
