@@ -28,10 +28,21 @@ html, body {
     border: 1px solid #fff;
     background-color: #3498db;
     color: #fff;
-    font-size: 2em;
+    /* Updated font-size */
+    font-size: clamp(2rem, 10vw, 8rem);
+    /* Ensure text does not wrap */
+    white-space: nowrap;
+    /* Handle overflow */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Optional padding */
+    padding: 0 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     user-select: none;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 .area:hover {
